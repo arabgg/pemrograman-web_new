@@ -1,0 +1,3 @@
+<?php
+$nilaiNumerik = 92;
+
