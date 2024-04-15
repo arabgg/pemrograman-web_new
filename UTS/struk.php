@@ -6,60 +6,63 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>struk</title>
+    <link rel="stylesheet" href="background1.css" type="text/css">
 </head>
-<body>
+<body class="container">
+    <div class="form">
+    
     <h2>struk pembelajaan</h2>
             <table>
-            <tr>
-                <td>Nama</td>
+            <tr class="css">
+                <td align="left">Nama</td>
                 <td><?php echo $_SESSION["nama"];?>></td>
             </tr>
-            <tr>
-                <td>NIK</td>
+            <tr class="css">
+                <td align="left">NIK</td>
                 <td><?php echo $_SESSION["NIK"];?></td>
             </tr>
-            <tr>
-                <td>Tanggal Peminjaman</td>
+            <tr class="css">
+                <td align="left">Tanggal Peminjaman</td>
                 <td><?php echo $_COOKIE["peminjaman"];?></td>
             </tr>
-            <tr>
-                <td>Tanggal pengembalian</td>
+            <tr class="css">
+                <td align="left">Tanggal pengembalian</td>
                 <td><?php echo $_COOKIE["pengembalian"];?></td>
             </tr>
-            <tr>
-                <td>Jenis Kelamin</td>
+            <tr class="css">
+                <td align="left">Jenis Kelamin</td>
                 <td><?php echo $_SESSION["jk"];?></td>
             </tr>
-            <tr>
-                <td>Alamat</td>
+            <tr class="css">
+                <td align="left">Alamat</td>
                 <td><?php echo $_SESSION["alamat"];?></td>
             </tr>
-            <tr>
-                <td>Peralatan Sewa : </td>
+            <tr class="css">
+                <td align="left">Peralatan Sewa : </td>
             </tr>
-            <tr>
-                <td>Tenda</td>
+            <tr class="css">
+                <td align="left">Tenda</td>
                 <td><?php echo $_COOKIE["tenda"];?></td>
             </tr>
-            <tr>
-                <td>Kompor</td>
+            <tr class="css">
+                <td align="left">Kompor</td>
                 <td><?php echo $_COOKIE["kompor"];?></td>
             </tr>
-            <tr>
-                <td>Tikar</td>
+            <tr class="css">
+                <td align="left">Tikar</td>
                 <td><?php echo $_COOKIE["tikar"];?></td>
             </tr>
-            <tr>
-                <td>Terpal</td>
+            <tr class="css">
+                <td align="left">Terpal</td>
                 <td><?php echo $_COOKIE["terpal"];?></td>
             </tr>
-            <tr>
-                <td>Peralatan Masak</td>
+            <tr class="css">
+                <td align="left">Peralatan Masak</td>
                 <td><?php echo $_COOKIE["setmasak"];?></td>
             </tr>
-            <tr>
-                <td>Tas Gunung/ Carrier</td>
+            <tr class="css">
+                <td align="left">Tas Gunung/ Carrier</td>
                 <td><?php echo $_COOKIE["tas"];?></td>
             </tr>
             <tr>
@@ -70,5 +73,6 @@ session_start();
             
         </tr>
     </table>
+    </div>
 </body>
 </html>

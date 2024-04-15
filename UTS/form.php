@@ -33,8 +33,8 @@ session_start();
             </tr>
             <tr>
                 <td>Jenis Kelamin</td>
-                <td><input type="radio" name="jk" id="jk">laki-laki
-                    <input type="radio" name="jk" id="jk">perempuan
+                <td><input type="radio" value="laki-laki" name="jk" id="jk">laki-laki
+                    <input type="radio" value="perempuan" name="jk" id="jk">perempuan
                 </td>
             </tr>
             <tr>
@@ -46,19 +46,19 @@ session_start();
             </tr>
             <tr>
                 <td>Tenda</td>
-                <td><input type="checkbox" name="tenda">no
-                    <input type="checkbox" name="tenda">kapasiatas 1 org
-                    <input type="checkbox" name="tenda">kapasiatas 2 org
-                    <input type="checkbox" name="tenda">kapasiatas 3 org
-                    <input type="checkbox" name="tenda">kapasiatas 4 org
-                    <input type="checkbox" name="tenda">kapasiatas 5 org
-                    <input type="checkbox" name="tenda">kapasiatas 6 org
+                <td><input type="checkbox" value="no" name="tenda">no
+                    <input type="checkbox" value="kapasitas 1 org" name="tenda">kapasiatas 1 org
+                    <input type="checkbox" value="kapasitas 2 org" name="tenda">kapasiatas 2 org
+                    <input type="checkbox" value="kapasitas 3 org" name="tenda">kapasiatas 3 org
+                    <input type="checkbox" value="kapasitas 4 org" name="tenda">kapasiatas 4 org
+                    <input type="checkbox" value="kapasitas 5 org" name="tenda">kapasiatas 5 org
+                    <input type="checkbox" value="kapasitas 6 org" name="tenda">kapasiatas 6 org
                 </td>
             </tr>
             <tr>
                 <td>Kompor</td>
-                <td><input type="checkbox" name="kompor" id="kompor">besar
-                    <input type="checkbox" name="kompor" id="kompor">keci
+                <td><input type="checkbox" value="besar" name="kompor" id="kompor">besar
+                    <input type="checkbox" value="kecil" name="kompor" id="kompor">keci
                 </td>
             </tr>
             <tr>
@@ -73,20 +73,20 @@ session_start();
             </tr>
             <tr>
                 <td>Terpal</td>
-                <td><input type="radio" name="terpal" id="terpal">yes
-                    <input type="radio" name="terpal" id="terpal">no
+                <td><input type="radio" value="yes" name="terpal" id="terpal">yes
+                    <input type="radio" value="no" name="terpal" id="terpal">no
                 </td>
             </tr>
             <tr>
                 <td>Peralatan Masak</td>
-                <td><input type="radio" name="setmasak" id="setmasak">yes
-                    <input type="radio" name="setmasak" id="setmasak">no
+                <td><input type="radio" value="yes" name="setmasak" id="setmasak">yes
+                    <input type="radio" value="no"name="setmasak" id="setmasak">no
                 </td>
             </tr>
             <tr>
                 <td>Tas Gunung/ Carrier</td>
-                <td><input type="radio" name="tas">yes
-                    <input type="radio" name="tas">no
+                <td><input type="radio" value="yes" name="tas">yes
+                    <input type="radio" value="no" name="tas">no
                 </td>
             </tr>
             <tr>
